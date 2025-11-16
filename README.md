@@ -117,7 +117,7 @@ cd satusehat-sentiment-analysis
 pip install -r requirements.txt
 ```
 
-### Requirements.txt
+### Requirements
 ```
 transformers>=4.30.0
 torch>=2.0.0
