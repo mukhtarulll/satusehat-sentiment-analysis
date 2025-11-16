@@ -9,7 +9,7 @@ Proyek ini menganalisis sentimen 1.048 ulasan pengguna aplikasi kesehatan SatuSe
 
 ## Ringkasan Singkat
 
-![Sentiment Analysis Results](HASIL_ANALISIS.jpg)
+![Sentiment Analysis Results](HASIL_ANALISIS.png)
 
 Hasil analisis menunjukkan:
 - **87.3% ulasan negatif** — Dominasi keluhan teknis (login/OTP, scan barcode, sertifikat vaksin)
@@ -40,7 +40,7 @@ Hasil analisis menunjukkan:
 - Field yang diambil: content (teks ulasan), score (rating bintang)
 
 ### 2. Text Preprocessing
-![Methodology Flowchart](Metode-Miniriset-UAS.drawio.jpg)
+![Methodology Flowchart](Metode%20Miniriset%20UAS.drawio.png)
 
 Pipeline preprocessing:
 - **Cleaning**: Menghapus karakter non-alfabet, emoji, URL
@@ -64,19 +64,19 @@ Pipeline preprocessing:
 
 ## Temuan Utama
 
-### 🔴 Top 5 Keluhan (Sentimen Negatif)
+### Top 5 Keluhan (Sentimen Negatif)
 1. **"tolong diperbaiki" / "tolong perbaiki"** (105 kemunculan) — Permintaan perbaikan bug umum
 2. **"sertifikat vaksin"** (94 kemunculan) — Issue download/akses sertifikat vaksinasi
 3. **"peduli lindungi"** (65 kemunculan) — Masalah migrasi data dari PeduliLindungi
 4. **"scan barcode"** (49 kemunculan) — Fitur scan QR/barcode tidak berfungsi
 5. **"kode OTP"** (tidak tercatat eksplisit, tapi dominan di ulasan) — Masalah verifikasi OTP login
 
-### 🟢 Top 3 Pujian (Sentimen Positif)
+### Top 3 Pujian (Sentimen Positif)
 1. **"terima kasih"** (4 kemunculan) — Apresiasi umum
 2. **"sertifikat vaksin"** (4 kemunculan, konteks positif) — Berhasil download sertifikat
 3. **Fitur monitoring tekanan darah** — Apresiasi untuk integrasi health tracking
 
-### 📊 Insight Confidence Score
+### Insight Confidence Score
 - **Negatif**: Rata-rata confidence 0.96 (model sangat yakin dengan klasifikasi negatif)
 - **Positif**: Rata-rata confidence 0.87 (lebih rendah karena jumlah sample kecil)
 - **Netral**: Rata-rata confidence 0.78 (ambiguitas tertinggi)
@@ -98,24 +98,6 @@ Pipeline preprocessing:
 ### Priority 3 (Long Term)
 7. **Expand health monitoring features** — Leverage positive sentiment pada BP monitoring untuk tambah fitur (glucose, heart rate, etc.)
 8. **Sentiment monitoring dashboard** — Automate tracking ulasan untuk early detection issue baru
-
----
-
-## File Struktur
-
-```
-satusehat-sentiment-analysis/
-├── README.md                                # Dokumentasi utama (Bahasa Indonesia)
-├── README.en.md                             # English version
-├── data_ulasan_satusehat.csv                # Raw dataset (1,048 reviews)
-├── HASIL_ANALISIS.csv                       # Processed data with sentiment labels
-├── Miniriset-UAS_Mukhtarul-Hadi_2304140066.ipynb  # Jupyter Notebook lengkap
-├── Miniriset-UAS_Mukhtarul-Hadi_230414066.pdf    # Laporan akademik
-├── LAPORAN_RINGKASAN.txt                    # Summary findings
-├── Metode-Miniriset-UAS.drawio.jpg          # Methodology flowchart
-├── HASIL_ANALISIS.jpg                       # Dashboard visualization
-└── requirements.txt                         # Python dependencies
-```
 
 ---
 
@@ -216,9 +198,3 @@ Jika menggunakan project ini, mohon cite:
   url = {https://github.com/yourusername/satusehat-sentiment-analysis}
 }
 ```
-
----
-
-**Last Updated:** November 2025  
-**Status:** Academic Project — Portfolio Ready  
-**Version:** 1.0
