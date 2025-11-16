@@ -1,0 +1,21 @@
+
+📊 LAPORAN ANALISIS SENTIMEN APLIKASI SATUSEHAT
+🔷 Jumlah Ulasan: 1048
+🔷 Distribusi Sentimen:
+   - Positif: 4.3%
+   - Netral: 8.4%
+   - Negatif: 87.3%
+
+🔴 TOP 5 KELUHAN:
+ - sertifikat vaksin (94)
+ - peduli lindungi (65)
+ - tolong diperbaiki (58)
+ - scan barcode (49)
+ - tolong perbaiki (47)
+
+🟢 TOP 5 PUJIAN:
+ - terima kasih (4)
+ - sertifikat vaksin (4)
+ - pilih tema (2)
+ - tgl mei (2)
+ - daftar ulang (2)
