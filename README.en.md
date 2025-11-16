@@ -1,4 +1,4 @@
-[![id](https://img.shields.io/badge/lang-id-blue.svg)](https://github.com/yourusername/satusehat-sentiment-analysis/blob/main/README.md)
+[![id](https://img.shields.io/badge/lang-id-blue.svg)](https://github.com/ilovetahugimbal/satusehat-sentiment-analysis/blob/main/README.md)
 
 # SatuSehat App Sentiment Analysis with IndoBERT
 ## Project: Data Mining & NLP
