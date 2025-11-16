@@ -195,6 +195,6 @@ Jika menggunakan project ini, mohon cite:
   title = {Sentiment Analysis of SatuSehat App Reviews Using IndoBERT},
   year = {2024},
   publisher = {GitHub},
-  url = {https://github.com/yourusername/satusehat-sentiment-analysis}
+  url = {https://github.com/ilovetahugimbal/satusehat-sentiment-analysis}
 }
 ```
