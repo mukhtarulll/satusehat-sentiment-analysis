@@ -1,4 +1,4 @@
-[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/yourusername/satusehat-sentiment-analysis/blob/main/README.en.md)
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/ilovetahugimbal/satusehat-sentiment-analysis/blob/main/README.en.md)
 
 # Analisis Sentimen Aplikasi SatuSehat dengan IndoBERT
 ## Project: Data Mining & NLP
